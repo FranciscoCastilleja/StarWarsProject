@@ -1,6 +1,7 @@
 'use server'
 
 import { createClient } from "@/app/utils/supabase/server";
+import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export async function CreateDiscussion(formData: FormData) {
@@ -21,8 +22,10 @@ export async function CreateDiscussion(formData: FormData) {
     .insert({ created_by: user, name: name, description: description, event: event })
 
     if (error) {
+        revalidatePath("/discussions/new-discussion")
         redirect("/discussions/new-discussion?message=Error to create the discussion")
     } else {
-        redirect("/discussions?message=Discussion created successfully")
+        revalidatePath("/discussions")
+        redirect("/discussions")
     }
 }
