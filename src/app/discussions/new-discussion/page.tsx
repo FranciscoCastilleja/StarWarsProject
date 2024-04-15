@@ -15,7 +15,7 @@ export default function NewDiscussion({searchParams}:{searchParams: {message:str
     }, [])
 
     return (
-        <main className="flex max-h-screen h-auto justify-center">
+        <main className="flex min-h-screen h-auto justify-center">
             <section className="grid w-full h-full place-items-center sm:w-[50%]">
                 {
                     messageShow === true && (
