@@ -16,7 +16,7 @@ export default function Header() {
         await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: `http://localhost:3000/auth/callback?next=${pathname}`
+                redirectTo: `http://starwars-chronology.vercel.app/auth/callback?next=${pathname}`
             }
         })
     }
