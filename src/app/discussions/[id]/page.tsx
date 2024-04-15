@@ -28,7 +28,7 @@ export default function IdDiscussion({searchParams}:{searchParams:{message:strin
     }, [])
 
     useEffect(() => {
-        if (searchParams.message !== undefined || searchParams.message !== null) {
+        if (searchParams.message !== undefined) {
             setMessageShow(true)
         }
     }, [])
