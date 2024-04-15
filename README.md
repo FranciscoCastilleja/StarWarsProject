@@ -6,7 +6,7 @@ This is a project for the Supabase Hackathon 2024, it is based on the idea of â€
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Web Screenshot](/public/Media/screenshot1.webp)
 
 
 ## ðŸ›  Skills
