@@ -19,7 +19,7 @@ export default function Cronologia() {
         }
 
         GetUser()
-    }, [user])
+    }, [])
 
     function Article1() {
         const article1 = document.getElementById('article1') as HTMLElement;

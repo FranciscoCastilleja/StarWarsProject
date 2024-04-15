@@ -25,7 +25,7 @@ export default function IdDiscussion({searchParams}:{searchParams: {message:stri
         }
 
         GetUser()
-    }, [user])
+    }, [])
 
     useEffect(() => {
         if (searchParams.message !== undefined) {
