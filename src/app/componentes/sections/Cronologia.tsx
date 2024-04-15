@@ -170,7 +170,36 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/TheHighRepublic.webp" alt="Image of The High Republic" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">The High Republic</h2>
                 <div id="Content3" className="hidden w-full h-auto place-items-center">
-                    <Card name="Star Wars: Young Jedi Adventures" year="232 BBY"/>
+                    <Card name="Star Wars: Young Jedi Adventures (Serie)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: Starlight: Go Together (Short Story)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: Light of the Jedi (Adult Novel)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: The Great Jedi Rescue (Young Reader)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: A Test of Courage (Junior Novel)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic 1 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: Into the Dark (Young Adult Novel)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic 2 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 1 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic 3 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 2 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: Starlight: First Duty (Short Story)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic 4 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 3 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 4 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic 5 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 5 (Ongoing Comic Series)" year="232 BBY"/>
+                    <Card name="Star Wars: The High Republic: Starlight: Hidden Danger (Short Story)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic: The Rising Storm (Adult Novel)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic: Race to Crashpoint Tower (Junior Novel)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic 6 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 6 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic: Out of the Shadows (Young Adult Novel)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic 7 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic 8 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures — The Monster of Temple Peak 1 (Comic Miniseries)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures Free Comic Book Day 2021 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic Adventures 7 (Ongoing Comic Series)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic: Tempest Runner (Audio Drama)" year="231 BBY"/>
+                    <Card name="Star Wars: The High Republic 9 (Ongoing Comic Series)" year="231 BBY"/>
                 </div>
             </article>
             <article id="article4" onClick={Article4} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
