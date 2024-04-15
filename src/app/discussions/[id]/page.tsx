@@ -2,12 +2,12 @@
 
 import Messages from "@/app/componentes/sections/Messages";
 import { SendMessage } from "./action";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { User } from "@supabase/supabase-js";
 import { createClient } from "@/app/utils/supabase/client";
 
-export default function IdDiscussion() {
+export default function IdDiscussion({searchParams}:{searchParams:{message:string}}) {
     const pathname = usePathname()
     const id = pathname.split('/')[2]
 
@@ -27,11 +27,8 @@ export default function IdDiscussion() {
         GetUser()
     }, [])
 
-    const searchParams = useSearchParams()
-    const search = searchParams.get('message')
-
     useEffect(() => {
-        if (search !== undefined || search !== null) {
+        if (searchParams.message !== undefined || searchParams.message !== null) {
             setMessageShow(true)
         }
     }, [])
@@ -48,7 +45,7 @@ export default function IdDiscussion() {
                                 </svg>
                                 <span className="sr-only">Error icon</span>
                             </div>
-                            <div className="ms-3 text-sm font-normal">{search}.</div>
+                            <div className="ms-3 text-sm font-normal">{searchParams.message}.</div>
                             <button onClick={() => setMessageShow(false)} className="ms-auto -mx-1.5 -my-1.5 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 inline-flex items-center justify-center h-8 w-8 text-gray-500 hover:text-white bg-[#222] hover:bg-[#444]" aria-label="Close">
                                 <span className="sr-only">Close</span>
                                 <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
