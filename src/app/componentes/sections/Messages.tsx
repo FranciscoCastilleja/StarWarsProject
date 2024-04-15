@@ -1,6 +1,7 @@
 import { createClient } from "@/app/utils/supabase/client";
 import { useEffect, useState } from "react";
 import Message from "../Message";
+import { redirect } from "next/navigation";
 
 export default function Messages({id}:{id:string}) {
     const supabase = createClient()
@@ -17,7 +18,9 @@ export default function Messages({id}:{id:string}) {
             if (!error) {
                 let messagesJson = JSON.parse(JSON.stringify(content[0].content, null, 2))
                 setShowMessages(messagesJson)
-            } 
+            } else {
+                redirect('/discussions')
+            }
         }
 
         GetMessages()
