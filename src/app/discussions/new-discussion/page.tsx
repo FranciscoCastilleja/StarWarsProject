@@ -36,7 +36,7 @@ export default function NewDiscussion({searchParams}:{searchParams: {message:str
                         </div>
                     )
                 }
-                <form action={CreateDiscussion} className="grid my-[30%] size-auto bg-white/20 rounded-xl place-items-center">
+                <form action={CreateDiscussion} className="grid my-[25%] size-auto bg-white/20 rounded-xl place-items-center">
                     <h2 className="my-2 mx-5 text-white text-xl font-bold">Create a new discussion</h2>
                     <label htmlFor="name" className="text-white text-base">Discussion Name</label>
                     <input type="text" name="name" id="name" autoComplete="no" className="mb-3 pl-1 w-[90%] rounded" required/>
