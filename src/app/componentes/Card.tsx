@@ -1,26 +1,8 @@
 'use client'
 
-import { User } from "@supabase/supabase-js";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { createClient } from "../utils/supabase/client";
 
-export default function Card({name, year}:{name:string, year:string}) {
-    const supabase = createClient()
-
-    const [user, setUser] = useState<User | null>(null)
-
-    useEffect(() => {
-        const GetUser = async () => {
-            const { data, error } = await supabase.auth.getUser()
-            if (!error) {
-                setUser(data.user)
-            }
-        }
-
-        GetUser()
-    }, [user])
-
+export default function Card({name, year, user}:{name:string, year:string, user:boolean}) {
     return(
         <div className="grid my-5 w-60 h-auto bg-[#333] rounded-3xl place-items-center hover:bg-[#444]/90">
             <h2 className="mt-3 mb-2 text-white text-center text-lg font-bold">{name}</h2>
