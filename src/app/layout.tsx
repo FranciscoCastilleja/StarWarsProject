@@ -21,6 +21,7 @@ export default function RootLayout({
       <head>
         <meta name="keywords" content="Star Wars, Cronología, Star, Wars, Star Wars Cronología, Hackathon 2024, Supabase"/>
         <meta name="author" content="Francisco Castilleja"/>
+        <meta property="og:image" content="/Media/screenshot1.webp" />
         <link
           rel="icon"
           href="/favicon.svg"
