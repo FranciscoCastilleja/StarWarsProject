@@ -30,6 +30,7 @@ export default function IdDiscussion({searchParams}:{searchParams: {message:stri
     useEffect(() => {
         if (searchParams.message !== undefined) {
             setMessageShow(true)
+            window.location.reload()
         }
     }, [])
 
