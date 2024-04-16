@@ -11,7 +11,7 @@ export async function SendMessage(formData: FormData) {
 
     const { data, error: errorUser } = await supabase.auth.getUser()
     if (errorUser) {
-        redirect(`/discussions/${id}?message=Error with the user`)
+        redirect(`/discussions/${id}`)
     }
 
     const name = data.user.user_metadata.full_name
@@ -27,7 +27,7 @@ export async function SendMessage(formData: FormData) {
     .eq('id', id)
 
     if (error) {
-        redirect(`/discussions/${id}?message=Error with the data`)
+        redirect(`/discussions/${id}`)
     } else {
         let newContent = JSON.parse(JSON.stringify(content, null, 2));
 
@@ -48,7 +48,7 @@ export async function SendMessage(formData: FormData) {
         .eq('id', id)
 
         if (error) {
-            redirect(`/discussions/${id}?message=Error to send the comment`)
+            redirect(`/discussions/${id}`)
         }
 
         revalidatePath(`/discussions/${id}`)
