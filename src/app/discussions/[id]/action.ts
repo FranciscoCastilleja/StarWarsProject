@@ -51,7 +51,7 @@ export async function SendMessage(formData: FormData) {
             redirect(`/discussions/${id}?message=Error to send the comment`)
         }
 
-        revalidatePath(`/discussions/${id}`)
-        redirect(`/discussions/${id}/page`)
+        revalidatePath(`/discussions/`)
+        redirect(`/discussions/${id}/`)
     }
 }
