@@ -193,9 +193,39 @@ export default function Cronologia() {
                     <Card name="Star Wars: The High Republic 2 (Ongoing Comic Series)" year="382 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Convergence (Adult Novel)" year="382 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic Adventures 1 (Ongoing Comic Series)" year="382 BBY" user={user}/>
-                    <Card name="Star Wars: Tales of Enlightenment: A Different Perspective (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: A Different Perspective (Short Story)" year="382 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic — The Blade 1 (Comic Miniseries)" year="382 BBY" user={user}/>
-
+                    <Card name="Star Wars: The High Republic 3 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Battle of Jedha (Audio Drama)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 4 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 2 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic — The Blade 2 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: The Unusual Suspect (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 5 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: The Nameless Terror 1 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic — The Blade 3 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 6 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: No Such Thing as a Bad Customer (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 3 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic — The Blade 4 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 7 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Cataclysm (Adult Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Quest for Planet X (Junior Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 8 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: The Nameless Terror 2 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: Quest of the Jedi (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Path of Vengeance (Young Adult Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 4 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: The Nameless Terror 3 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 9 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: The Nameless Terror 4 (Comic Miniseries)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Edge of Balance: Precedent (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 5 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: Last Orders (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 6 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 7 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 8 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: Missing Pieces (Short Story)" year="377 BBY" user={user}/>
                     <Card name="Star Wars: Young Jedi Adventures (Serie)" year="232 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Starlight: Go Together (Short Story)" year="232 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Light of the Jedi (Adult Novel)" year="232 BBY" user={user}/>
@@ -259,6 +289,42 @@ export default function Cronologia() {
                     <Card name="Star Wars: The High Republic 15 (Ongoing Comic Series)" year="230 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Eye of the Storm 2 (Comic Miniseries)" year="230 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic Adventures Free Comic Book Day 2023 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Shadows of Starlight 1 (Comic Miniseries)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales from the Occlusion Zone: No Big Deal (Short Story)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Shadows of Starlight 2 (Comic Miniseries)" year="230 - 229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 1 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Eye of Darkness (Adult Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 1 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Shadows of Starlight 3 (Comic Miniseries)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 2 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Shadows of Starlight 4 (Comic Miniseries)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 3 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 2 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Escape from Valo (Junior Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 3 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 4 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 5 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: Crash Landing (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 6 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales from the Occlusion Zone: Pathogen (Short Story)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 7 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 8 (Ongoing Comic Series)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Temptation of the Force (Adult Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Edge of Balance, Vol. 3 (Manga Volume)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Beware the Nameless (Junior Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tears of the Nameless (Young Adult Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Trials of the Jedi (Adult Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Into the Light (Young Adult Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: A Valiant Vow (Junior Novel)" year="229 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales from the Occlusion Zone: Friend or Foe? (Short Story)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Defy the Storm (Young Adult Novel)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Tales from the Occlusion Zone: Survivors (Short Story)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 4 (Ongoing Comic Series)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 5 (Ongoing Comic Series)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 6 (Ongoing Comic Series)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 7 (Ongoing Comic Series)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 8 (Ongoing Comic Series)" year="228 BBY" user={user}/>
+                    <Card name="Star Wars: The Acolyte (Serie)" year="132 BBY" user={user}/>
                 </div>
             </article>
             <article id="article4" onClick={Article4} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
