@@ -34,8 +34,8 @@ export default function Messages({id}:{id:string}) {
                     Object.keys(showMessages).map((Item:any, index:number) => {
                         let messageItem = showMessages[Item]
                         return (
-                            <Suspense>
-                                <Message key={index} avatar={messageItem.avatar} name={messageItem.name} date={messageItem.date} message={messageItem.message}/>
+                            <Suspense key={index}>
+                                <Message avatar={messageItem.avatar} name={messageItem.name} date={messageItem.date} message={messageItem.message}/>
                             </Suspense>
                         );
                     })
