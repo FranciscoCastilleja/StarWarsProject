@@ -7,8 +7,8 @@ import Footer from "./componentes/sections/Footer";
 const inter = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900']});
 
 export const metadata: Metadata = {
-  title: "Star Wars Cronología",
-  description: "Proyecto de Star Wars para la Hackathon 2024 de Supabase",
+  title: "Star Wars Chronology",
+  description: "Star Wars project for Supabase Hackathon 2024",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="keywords" content="Star Wars, Cronología, Star, Wars, Star Wars Cronología, Hackathon 2024, Supabase"/>
+        <meta name="keywords" content="Star Wars, Chronology, Star, Wars, Star Wars Chronology, Hackathon 2024, Supabase"/>
         <meta name="author" content="Francisco Castilleja"/>
         <meta property="og:image" content="/Media/screenshot1.webp" />
         <link
