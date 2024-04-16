@@ -1,7 +1,7 @@
 'use client'
 
 import { createClient } from "@/app/utils/supabase/client";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Message from "../Message";
 
 export default function Messages({id}:{id:string}) {
@@ -34,7 +34,9 @@ export default function Messages({id}:{id:string}) {
                     Object.keys(showMessages).map((Item:any, index:number) => {
                         let messageItem = showMessages[Item]
                         return (
-                            <Message key={index} avatar={messageItem.avatar} name={messageItem.name} date={messageItem.date} message={messageItem.message}/>
+                            <Suspense>
+                                <Message key={index} avatar={messageItem.avatar} name={messageItem.name} date={messageItem.date} message={messageItem.message}/>
+                            </Suspense>
                         );
                     })
                 )
