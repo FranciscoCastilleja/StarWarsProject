@@ -186,6 +186,16 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/TheHighRepublic.webp" alt="Image of The High Republic" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">The High Republic</h2>
                 <div id="Content3" className="hidden w-full h-auto place-items-center">
+                    <Card name="Star Wars: The High Republic: Tales of Enlightenment: New Prospects (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Path of Deceit (Young Adult Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 1 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Quest for the Hidden City (Junior Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 2 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Convergence (Adult Novel)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 1 (Ongoing Comic Series)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of Enlightenment: A Different Perspective (Short Story)" year="382 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic — The Blade 1 (Comic Miniseries)" year="382 BBY" user={user}/>
+
                     <Card name="Star Wars: Young Jedi Adventures (Serie)" year="232 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Starlight: Go Together (Short Story)" year="232 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Light of the Jedi (Adult Novel)" year="232 BBY" user={user}/>
@@ -216,6 +226,39 @@ export default function Cronologia() {
                     <Card name="Star Wars: The High Republic Adventures 7 (Ongoing Comic Series)" year="231 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic: Tempest Runner (Audio Drama)" year="231 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic 9 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 8 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Edge of Balance, Vol. 1 (Manga Volume)" year="232 - 231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures — The Monster of Temple Peak 2 (Comic Miniseries)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Starlight: Past Mistakes (Short Story)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Showdown at the Fair (Young Reader)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 9 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The HigThe High Republic: Trail of Shadows 1 (Comic Miniseries)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 10 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures — The Monster of Temple Peak 3 (Comic Miniseries)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 11 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 10 (Ongoing Comic Series)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures — The Monster of Temple Peak 4 (Comic Miniseries)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Trail of Shadows 2 (Comic Miniseries)" year="231 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 11 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Starlight: Shadows Remain (Short Story)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 12 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Trail of Shadows 3 (Comic Miniseries)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Fallen Star (Adult Novel)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Mission to Disaster (Junior Novel)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 12 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Eye of the Storm 1 (Comic Miniseries)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 13 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures: Galactic Bake-Off Spectacular (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Trail of Shadows 4 (Comic Miniseries)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Midnight Horizon (Young Adult Novel)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Battle for Starlight (Young Reader)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 14 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Trail of Shadows 5 (Comic Miniseries)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: The Edge of Balance, Vol. 2 (Manga Volume)" year="231 - 230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures 13 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic 15 (Ongoing Comic Series)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic: Eye of the Storm 2 (Comic Miniseries)" year="230 BBY" user={user}/>
+                    <Card name="Star Wars: The High Republic Adventures Free Comic Book Day 2023 (Ongoing Comic Series)" year="230 BBY" user={user}/>
                 </div>
             </article>
             <article id="article4" onClick={Article4} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
