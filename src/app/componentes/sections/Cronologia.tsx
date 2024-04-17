@@ -370,7 +370,45 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/ReignOfTheEmpire.webp" alt="Image of Reign Of The Empire" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Reign Of The Empire</h2>
                 <div id="Content5" className="hidden w-full h-auto justify-center">
-                    <p className="my-3 text-white text-base">There is currently no content</p>
+                    <Card name="Star Wars: The Bad Batch (Season 1) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 1 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 2 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 3 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 4 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 5 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 6 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 7 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 8 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 9 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 10 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 11 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 12 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Bad Batch (Season 2 & 3) (Serie)" year="19 - 18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 13 (Comic)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 14 (Comic)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 15 (Comic)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 16 (Comic)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 17 (Comic)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader Annual 2 (Comic)" year="18 BBY" user={user}/>
+
+                    <Card name="Star Wars: Darth Vader 18 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 19 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 20 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 21 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 22 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars Jedi: Fallen Order (Video Game)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 23 (Comic)" year="12 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 24 (Comic)" year="12 BBY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 25 (Comic)" year="12 BBY" user={user}/>
+                    <Card name="Solo: A Star Wars Story (Movie)" year="13 - 10 BBY" user={user}/>
+                    <Card name="Star Wars: Obi-Wan Kenobi (Serie)" year="9 BBY" user={user}/>
+                    <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
+                    <Card name="Star Wars: Andor (Serie)" year="5 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 1) (Serie)" year="5 - 4 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 3) (Serie)" year="2 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
+                    <Card name="Rogue One: A Star Wars Story (Movie)" year="0 BBY" user={user}/>
                 </div>
             </article>
             <article id="article6" onClick={Article6} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
