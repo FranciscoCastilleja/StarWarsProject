@@ -36,7 +36,7 @@ export default function Discussions() {
                         event: event
                     } = discussion
                     return (
-                        <Link key={discussion.id} href={`/discussions/discussion?id=${id}`} className="w-full h-auto sm:w-[50%]">
+                        <Link key={discussion.id} href={`/discussions/${id}`} className="w-full h-auto sm:w-[50%]">
                             <div className="my-3 p-3 w-full h-auto bg-[#444] rounded-lg hover:bg-[#555]">
                                 <div className="flex w-full h-auto items-center gap-x-5">
                                     <h2 className="my-2 text-white text-3xl font-bold">{discussion.name}</h2>
