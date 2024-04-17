@@ -7,21 +7,8 @@ import { useEffect, useState } from "react";
 import { User } from "@supabase/supabase-js";
 import { createClient } from "@/app/utils/supabase/client";
 
-export default function IdDiscussion({searchParams}:{searchParams:{status:string}}) {
+export default function IdDiscussion() {
     const params = useParams<{id:string}>()
-    const router = useRouter();
-
-    const [routerRefresh, setRouterRefresh] = useState<boolean>(false)
-
-    if (routerRefresh === true) {
-        setRouterRefresh(false)
-        router.push(`/discussions/${params.id}`)
-    } else {
-        if (searchParams.status !== undefined) {
-            setRouterRefresh(true)
-            router.refresh()
-        }
-    }
 
     const supabase = createClient()
 

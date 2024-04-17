@@ -52,6 +52,6 @@ export async function SendMessage(formData: FormData) {
         }
 
         revalidatePath(`/discussions/${id}`, 'page')
-        redirect(`/discussions/${id}?status=sended`)
+        redirect(`/discussions/${id}`)
     }
 }
