@@ -26,6 +26,8 @@ export default function IdDiscussion() {
         GetUser()
     }, [])
 
+    console.log(id)
+
     return (
         <main className="min-h-screen h-auto">
             <div className="grid size-full place-items-center">

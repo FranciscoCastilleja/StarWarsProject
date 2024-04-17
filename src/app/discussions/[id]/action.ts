@@ -51,9 +51,7 @@ export async function SendMessage(formData: FormData) {
             redirect(`/discussions/${id}`)
         }
 
-        console.log(id)
-
-        //revalidatePath(`/discussions/${id}`)
-        //redirect(`/discussions/${id}`)
+        revalidatePath(`/discussions/${id}`)
+        redirect(`/discussions/${id}`)
     }
 }
