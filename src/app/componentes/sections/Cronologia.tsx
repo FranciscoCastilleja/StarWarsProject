@@ -331,7 +331,39 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/FallOfTheJedi.webp" alt="Image of Fall Of The Jedi" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Fall of the Jedi</h2>
                 <div id="Content4" className="hidden w-full h-auto justify-center">
-                    <p className="my-3 text-white text-base">There is currently no content</p>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 2 & 3) (Serie)" year="44 & 42 BBY" user={user}/>
+                    <Card name="Star Wars: Episode I The Phantom Menace (Movie)" year="32 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 4) (Serie)" year="32 BBY" user={user}/>
+                    <Card name="Star Wars: Episode II Attack of the Clones (Movie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 16, Season 2 & Episode 16, Season 1) (Serie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 1) (Serie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Movie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1, Season 3) (Serie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 3, Season 3) (Serie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 21, Season 1) (Serie)" year="22 - 21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 3, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 17 - 19, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 4 - 14, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 20 - 22, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 5 - 7, Season 3) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 2, Season 3) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 4, Season 3) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 8, Season 3) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 22, Season 1) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 9 - 11, Season 3) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 15, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 12 - 22, Season 3) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Season 4) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 2 - 13, Season 5) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1, Season 5) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 14 - 20, Season 5) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Season 6) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 9, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Episode III Revenge of the Sith (Movie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 10 & 11, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 5) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 12, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 6) (Serie)" year="19 BBY" user={user}/>
                 </div>
             </article>
             <article id="article5" onClick={Article5} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
