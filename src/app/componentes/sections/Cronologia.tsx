@@ -390,7 +390,6 @@ export default function Cronologia() {
                     <Card name="Star Wars: Darth Vader 16 (Comic)" year="18 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 17 (Comic)" year="18 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader Annual 2 (Comic)" year="18 BBY" user={user}/>
-
                     <Card name="Star Wars: Darth Vader 18 (Comic)" year="14 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 19 (Comic)" year="14 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 20 (Comic)" year="14 BBY" user={user}/>
@@ -408,6 +407,7 @@ export default function Cronologia() {
                     <Card name="Star Wars Rebels (Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 3) (Serie)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
+                    <Card name="Vader Immortal: A Star Wars VR Series (Video Game)" year="1 BBY" user={user}/>
                     <Card name="Rogue One: A Star Wars Story (Movie)" year="0 BBY" user={user}/>
                 </div>
             </article>
@@ -415,7 +415,15 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/AgeOfRebellion.webp" alt="Image of Age Of Rebellion" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Age Of Rebellion</h2>
                 <div id="Content6" className="hidden w-full h-auto justify-center">
-                    <p className="my-3 text-white text-base">There is currently no content</p>
+                    <Card name="Star Wars: Episode IV A New Hope (Movie)" year="0 BBY" user={user}/>
+                    <Card name="Star Wars: Episode V The Empire Strikes Back (Movie)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars Outlaws (Video Game)" year="3 - 4 ABY" user={user}/>
+                    <Card name="Star Wars: Episode VI Return of the Jedi (Movie)" year="4 ABY" user={user}/>
+                    <Card name="Star Wars: Aftermath (Novel)" year="4 ABY" user={user}/>
+                    <Card name="Star Wars: Aftermath: Life Debt (Novel)" year="5 ABY" user={user}/>
+                    <Card name="Star Wars: Aftermath: Empire's End (Novel)" year="5 ABY" user={user}/>
+                    <Card name="Star Wars Battlefront II (Video Game)" year="- - - ABY" user={user}/>
+                    <Card name="Star Wars: Squadrons (Video Game)" year="- - - ABY" user={user}/>
                 </div>
             </article>
             <article id="article7" onClick={Article7} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
