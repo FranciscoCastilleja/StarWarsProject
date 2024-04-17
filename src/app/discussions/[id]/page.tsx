@@ -12,6 +12,7 @@ export default function IdDiscussion({searchParams}:{searchParams:{status:string
     const router = useRouter();
 
     if (searchParams.status !== undefined) {
+        router.refresh()
         router.push(`/discussions/${params.id}`)
     }
 
