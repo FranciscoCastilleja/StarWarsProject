@@ -9,9 +9,9 @@ import { createClient } from "@/app/utils/supabase/client";
 
 export default function IdDiscussion({searchParams}:{searchParams:{status:string}}) {
     const params = useParams<{id:string}>()
+    const router = useRouter();
 
     if (searchParams.status !== undefined) {
-        const router = useRouter();
         router.push(`/discussions/${params.id}`)
     }
 
