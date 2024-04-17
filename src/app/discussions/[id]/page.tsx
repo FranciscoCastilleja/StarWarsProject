@@ -2,14 +2,15 @@
 
 import Messages from "@/app/componentes/sections/Messages";
 import { SendMessage } from "./action";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { User } from "@supabase/supabase-js";
 import { createClient } from "@/app/utils/supabase/client";
 
 export default function IdDiscussion() {
-    const pathname = usePathname()
-    const id = pathname.split('/')[2]
+    //const pathname = usePathname()
+    //const id = pathname.split('/')[2]
+    const params = useParams<{id:string}>()
 
     const supabase = createClient()
 
@@ -26,12 +27,12 @@ export default function IdDiscussion() {
         GetUser()
     }, [])
 
-    console.log(id)
+    console.log(params.id)
 
     return (
         <main className="min-h-screen h-auto">
             <div className="grid size-full place-items-center">
-                <Messages id={id}/>
+                <Messages id={params.id}/>
                 <section className="flex my-3 w-full h-auto justify-center sm:w-[50%]">
                     {
                         user && (
@@ -39,7 +40,7 @@ export default function IdDiscussion() {
                                 <div className="grid size-full place-items-center">
                                     <label htmlFor="comment" className="my-1 text-white text-base">Comment</label>
                                     <textarea name="comment" id="comment" className="my-1 pl-1 w-[80%] rounded" required/>
-                                    <input type="checkbox" value={id} name="id" className="hidden" defaultChecked={true}/>
+                                    <input type="checkbox" value={params.id} name="id" className="hidden" defaultChecked={true}/>
                                 </div>
                                 <button className="p-3 rounded-md border border-white/30 hover:bg-[#333]">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
