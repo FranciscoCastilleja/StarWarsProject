@@ -12,7 +12,7 @@ export default function IdDiscussion({searchParams}:{searchParams:{status:string
 
     if (searchParams.status !== undefined) {
         const router = useRouter();
-        router.refresh()
+        router.push(`/discussions/${params.id}`)
     }
 
     const supabase = createClient()
