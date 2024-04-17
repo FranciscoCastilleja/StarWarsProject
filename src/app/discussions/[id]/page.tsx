@@ -2,13 +2,18 @@
 
 import Messages from "@/app/componentes/sections/Messages";
 import { SendMessage } from "./action";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { User } from "@supabase/supabase-js";
 import { createClient } from "@/app/utils/supabase/client";
 
-export default function IdDiscussion() {
+export default function IdDiscussion({searchParams}:{searchParams:{status:string}}) {
     const params = useParams<{id:string}>()
+
+    if (searchParams.status !== undefined) {
+        const router = useRouter();
+        router.refresh()
+    }
 
     const supabase = createClient()
 
