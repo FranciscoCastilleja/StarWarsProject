@@ -11,9 +11,16 @@ export default function IdDiscussion({searchParams}:{searchParams:{status:string
     const params = useParams<{id:string}>()
     const router = useRouter();
 
-    if (searchParams.status !== undefined) {
-        router.replace(`/discussions/${params.id}`)
-        router.refresh()
+    const [routerRefresh, setRouterRefresh] = useState<boolean>(false)
+
+    if (routerRefresh === true) {
+        setRouterRefresh(false)
+        router.push(`/discussions/${params.id}`)
+    } else {
+        if (searchParams.status !== undefined) {
+            setRouterRefresh(true)
+            router.refresh()
+        }
     }
 
     const supabase = createClient()
