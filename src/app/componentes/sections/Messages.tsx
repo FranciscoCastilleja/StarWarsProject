@@ -3,6 +3,7 @@
 import { createClient } from "@/app/utils/supabase/client";
 import { useEffect, useState } from "react";
 import Message from "../Message";
+import { useRouter } from "next/navigation";
 
 export default function Messages({id}:{id:string}) {
     const supabase = createClient()
@@ -24,6 +25,22 @@ export default function Messages({id}:{id:string}) {
 
         GetMessages()
     }, [])
+
+    const router = useRouter()
+
+    useEffect(() => {
+        const channel = supabase.channel('realtime comments').on('postgres_changes',{
+            event:'*',
+            schema:'public',
+            table:'Discussions'
+        }, () => {
+            router.refresh()
+        }).subscribe()
+
+        return () => {
+            supabase.removeChannel(channel)
+        }
+    }, [supabase, router])
 
     return (
         <section className="grid my-3 w-full h-auto place-items-center border-x border-white/50 sm:w-[50%]">
