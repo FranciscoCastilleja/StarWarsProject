@@ -34,7 +34,7 @@ export default function Messages({id}:{id:string}) {
             schema:'public',
             table:'Discussions'
         }, () => {
-            router.refresh()
+            window.location.reload()
         }).subscribe()
 
         return () => {
