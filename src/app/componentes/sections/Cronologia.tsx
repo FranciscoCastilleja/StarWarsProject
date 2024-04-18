@@ -441,7 +441,31 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/RiseOfTheFirstOrder.webp" alt="Image of Rise Of The First Order" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Rise Of The First Order</h2>
                 <div id="Content8" className="hidden w-full h-auto justify-center">
-                    <p className="my-3 text-white text-base">There is currently no content</p>
+                    <Card name="Star Wars: Bloodline (Novel)" year="28 ABY" user={user}/>
+                    <Card name="Star Wars: The Rise of Kylo Ren 1 (Comic)" year="28 ABY" user={user}/>
+                    <Card name="Star Wars: The Rise of Kylo Ren 2 (Comic)" year="28 ABY" user={user}/>
+                    <Card name="Star Wars: The Rise of Kylo Ren 3 (Comic)" year="28 ABY" user={user}/>
+                    <Card name="Star Wars: The Rise of Kylo Ren 4 (Comic)" year="28 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Poe Dameron 1 (Comic)" year="30 & 31 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - General Hux 1 (Comic)" year="33 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Kylo Ren 1 (Comic)" year="33 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Finn 1 (Comic)" year="33 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Rey 1 (Comic)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Rose Tico 1 (Comic)" year="26 - 34 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Supreme Leader Snoke 1 (Comic)" year="28 & 34 ABY" user={user}/>
+                    <Card name="Star Wars: Age of Resistance - Captain Phasma 1 (Comic)" year="29 & 34 ABY" user={user}/>
+                    <Card name="Star Wars Resistance (Season 1) (Serie)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Episode VII The Force Awakens (Movie)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Episode VIII The Last Jedi (Movie)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Allegiance 1 (Comic)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Allegiance 2 (Comic)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Allegiance 3 (Comic)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Allegiance 4 (Comic)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Resistance Reborn (Novel)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Force Collector (Novel)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars Resistance (Season 2) (Serie)" year="34 - 35 ABY" user={user}/>
+                    <Card name="Star Wars: Spark of the Resistance (Novel)" year="34 ABY" user={user}/>
+                    <Card name="Star Wars: Episode IX The Rise of Skywalker (Movie)" year="35 ABY" user={user}/>
                 </div>
             </article>
             <article id="article9" onClick={Article9} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
