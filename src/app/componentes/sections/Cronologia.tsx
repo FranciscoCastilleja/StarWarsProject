@@ -417,6 +417,56 @@ export default function Cronologia() {
                 <div id="Content6" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: Episode IV A New Hope (Movie)" year="0 BBY" user={user}/>
                     <Card name="Star Wars: Episode V The Empire Strikes Back (Movie)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 1 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 2 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 3 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 4 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 5 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 6 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 7 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 8 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 9 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 10 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 11 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 12 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 13 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 14 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 15 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 16 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 17 (2020) (Comic)" year="3 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 18 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 19 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 20 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 21 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 22 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 23 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 24 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 25 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 26 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 27 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 28 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 29 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 30 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 31 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 32 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 33 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 34 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 35 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 36 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 37 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 38 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 39 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 40 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 41 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 42 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 43 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 44 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 45 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 46 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 47 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 48 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 49 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
+                    <Card name="Star Wars: Darth Vader 50 (2020) (Comic)" year="3 or 4 ABY" user={user}/>
                     <Card name="Star Wars Outlaws (Video Game)" year="3 - 4 ABY" user={user}/>
                     <Card name="Star Wars: Episode VI Return of the Jedi (Movie)" year="4 ABY" user={user}/>
                     <Card name="Star Wars: Aftermath (Novel)" year="4 ABY" user={user}/>
