@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./componentes/sections/Header";
 import Footer from "./componentes/sections/Footer";
+import Stars from "./componentes/Stars";
 
 const inter = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900']});
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Header/>
+        <Stars/>
         {children}
         <Footer/>
       </body>

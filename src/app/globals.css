@@ -28,6 +28,23 @@ body::-webkit-scrollbar-track {
   background-color: black;
 }
 
+.space {
+  position: sticky;
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  left: 0;
+  background: white;
+  opacity: 75%;
+  box-shadow: var(--space-layer);
+  animation: moveStars var(--duration) linear infinite;
+}
+
+@keyframes moveStars {
+  from {transform: translateY(0);}
+  to {transform: translateY(-100vh);}
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: pretty;
