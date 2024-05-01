@@ -47,8 +47,8 @@ export default function Stars() {
             var nuevaPosicionY = posicionActualY + velocidadY;
 
             // Mueve el elemento a la nueva posición
-            espacio.style.left = nuevaPosicionX + 'vw';
-            espacio.style.top = nuevaPosicionY + 'vh';
+            espacio.style.left = nuevaPosicionX + 'px';
+            espacio.style.top = nuevaPosicionY + 'px';
         });
     
         
