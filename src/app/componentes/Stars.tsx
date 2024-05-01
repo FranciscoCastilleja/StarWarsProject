@@ -37,18 +37,20 @@ export default function Stars() {
             }
     
             // Mueve cada elemento '.space'
-            var espacio = document.querySelector('.space') as HTMLElement;
-            // Obtén la posición actual del elemento
-            var posicionActualX = espacio.offsetLeft;
-            var posicionActualY = espacio.offsetTop;
+            var espacios = document.querySelectorAll('.space') as NodeListOf<HTMLElement>;
+            espacios.forEach(function(espacio) {
+                // Obtén la posición actual del elemento
+                var posicionActualX = espacio.offsetLeft;
+                var posicionActualY = espacio.offsetTop;
 
-            // Calcula la nueva posición
-            var nuevaPosicionX = posicionActualX + velocidadX;
-            var nuevaPosicionY = posicionActualY + velocidadY;
+                // Calcula la nueva posición
+                var nuevaPosicionX = posicionActualX + velocidadX;
+                var nuevaPosicionY = posicionActualY + velocidadY;
 
-            // Mueve el elemento a la nueva posición
-            espacio.style.left = nuevaPosicionX + 'px';
-            espacio.style.top = nuevaPosicionY + 'px';
+                // Mueve el elemento a la nueva posición
+                espacio.style.left = nuevaPosicionX + 'px';
+                espacio.style.top = nuevaPosicionY + 'px';
+            });
         });
     
         
