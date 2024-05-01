@@ -22,6 +22,35 @@ export default function Stars() {
             space1.style.setProperty("--size", size)
             space1.style.setProperty("--duration", duration)
         }
+
+        window.addEventListener('deviceorientation', function(event) {
+            var beta = event.beta;
+            var gamma = event.gamma;
+
+            var velocidadX:number = 0;
+            var velocidadY:number = 0;
+    
+            // Ajusta estos valores según sea necesario para cambiar la velocidad de movimiento
+            if (beta && gamma) {
+                var velocidadX = gamma / 45;
+                var velocidadY = beta / 45;
+            }
+    
+            // Mueve cada elemento '.space'
+            var espacio = document.querySelector('.space') as HTMLElement;
+            // Obtén la posición actual del elemento
+            var posicionActualX = espacio.offsetLeft;
+            var posicionActualY = espacio.offsetTop;
+
+            // Calcula la nueva posición
+            var nuevaPosicionX = posicionActualX + velocidadX;
+            var nuevaPosicionY = posicionActualY + velocidadY;
+
+            // Mueve el elemento a la nueva posición
+            espacio.style.left = nuevaPosicionX + 'px';
+            espacio.style.top = nuevaPosicionY + 'px';
+        });
+    
         
         generateSpaceLayer("1px", ".space-1", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
         generateSpaceLayer("2px", ".space-2", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
