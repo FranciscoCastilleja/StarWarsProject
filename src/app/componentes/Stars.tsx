@@ -37,7 +37,7 @@ export default function Stars() {
             }
     
             // Mueve cada elemento '.space'
-            var espacio = document.querySelector('.space-2.5') as HTMLElement;
+            var espacio = document.querySelector('.space-2-5') as HTMLElement;
             // Obtén la posición actual del elemento
             var posicionActualX = espacio.offsetLeft;
             var posicionActualY = espacio.offsetTop;
@@ -47,14 +47,14 @@ export default function Stars() {
             var nuevaPosicionY = posicionActualY + velocidadY;
 
             // Mueve el elemento a la nueva posición
-            espacio.style.left = nuevaPosicionX + 'px';
-            espacio.style.top = nuevaPosicionY + 'px';
+            espacio.style.left = nuevaPosicionX + 'vw';
+            espacio.style.top = nuevaPosicionY + 'vh';
         });
     
         
         generateSpaceLayer("1px", ".space-1", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
         generateSpaceLayer("2px", ".space-2", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
-        generateSpaceLayer("2.5px", ".space-2.5", Math.floor(Math.random() * (300 - 100) + 100), `0s`)
+        generateSpaceLayer("2.5px", ".space-2-5", Math.floor(Math.random() * (300 - 100) + 100), `0s`)
         generateSpaceLayer("3px", ".space-3", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
     }, [])
 
@@ -62,7 +62,7 @@ export default function Stars() {
         <>
             <div className="space space-1"></div>
             <div className="space space-2"></div>
-            <div className="space space-2.5"></div>
+            <div className="space space-2-5"></div>
             <div className="space space-3"></div>
         </>
     );
