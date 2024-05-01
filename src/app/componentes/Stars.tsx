@@ -37,25 +37,24 @@ export default function Stars() {
             }
     
             // Mueve cada elemento '.space'
-            var espacios = document.querySelectorAll('.space') as NodeListOf<HTMLElement>;
-            espacios.forEach(function(espacio) {
-                // Obtén la posición actual del elemento
-                var posicionActualX = espacio.offsetLeft;
-                var posicionActualY = espacio.offsetTop;
+            var espacio = document.querySelector('.space-2.5') as HTMLElement;
+            // Obtén la posición actual del elemento
+            var posicionActualX = espacio.offsetLeft;
+            var posicionActualY = espacio.offsetTop;
 
-                // Calcula la nueva posición
-                var nuevaPosicionX = posicionActualX + velocidadX;
-                var nuevaPosicionY = posicionActualY + velocidadY;
+            // Calcula la nueva posición
+            var nuevaPosicionX = posicionActualX + velocidadX;
+            var nuevaPosicionY = posicionActualY + velocidadY;
 
-                // Mueve el elemento a la nueva posición
-                espacio.style.left = nuevaPosicionX + 'px';
-                espacio.style.top = nuevaPosicionY + 'px';
-            });
+            // Mueve el elemento a la nueva posición
+            espacio.style.left = nuevaPosicionX + 'px';
+            espacio.style.top = nuevaPosicionY + 'px';
         });
     
         
         generateSpaceLayer("1px", ".space-1", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
         generateSpaceLayer("2px", ".space-2", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
+        generateSpaceLayer("2.5px", ".space-2.5", Math.floor(Math.random() * (300 - 100) + 100), `0s`)
         generateSpaceLayer("3px", ".space-3", Math.floor(Math.random() * (300 - 100) + 100), `${Math.floor(Math.random() * (50 - 15)+15)}s`)
     }, [])
 
@@ -63,6 +62,7 @@ export default function Stars() {
         <>
             <div className="space space-1"></div>
             <div className="space space-2"></div>
+            <div className="space space-2.5"></div>
             <div className="space space-3"></div>
         </>
     );
