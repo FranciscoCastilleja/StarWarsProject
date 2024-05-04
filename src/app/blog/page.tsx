@@ -2,6 +2,11 @@ export default function Blog() {
     return (
         <main className="grid min-h-screen h-auto place-items-center">
             <article className="my-3 w-[90%] h-fit border-y border-white sm:w-[50%]">
+                <h2 className="my-2 text-white text-xl font-bold">May 4th, 2024</h2>
+                <p className="my-2 text-white text-base">May the Force be with you this May 4th! Let's celebrate Star Wars Day together, remembering the epic battles, unforgettable characters, and lessons of hope and resistance that this incredible saga has taught us. Happy Star Wars Day to all fans across the galaxy!</p>
+                <p className="my-2 text-white text-center text-base">Attn: Francisco Castilleja (Creator)</p>
+            </article>
+            <article className="my-3 w-[90%] h-fit border-y border-white sm:w-[50%]">
                 <h2 className="my-2 text-white text-xl font-bold">Problem Solved</h2>
                 <p className="my-2 text-white text-base">The problem about the comments was solved, now you can send comments and watch it in realtime.</p>
                 <p className="my-2 text-white text-center text-base">Attn: Francisco Castilleja (Creator)</p>
