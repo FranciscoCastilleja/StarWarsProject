@@ -396,9 +396,15 @@ export default function Cronologia() {
                     <Card name="Star Wars: Darth Vader 21 (Comic)" year="14 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 22 (Comic)" year="14 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Fallen Order (Video Game)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Jedi Fallen Order - Dark Temple 1 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Jedi Fallen Order - Dark Temple 2 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Jedi Fallen Order - Dark Temple 3 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Jedi Fallen Order - Dark Temple 4 (Comic)" year="14 BBY" user={user}/>
+                    <Card name="Star Wars: Jedi Fallen Order - Dark Temple 5 (Comic)" year="14 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 23 (Comic)" year="12 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 24 (Comic)" year="12 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 25 (Comic)" year="12 BBY" user={user}/>
+                    <Card name="Star Wars Jedi: Battle Scars (Novel)" year="12 & 11 BBY" user={user}/>
                     <Card name="Solo: A Star Wars Story (Movie)" year="13 - 10 BBY" user={user}/>
                     <Card name="Star Wars: Obi-Wan Kenobi (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
