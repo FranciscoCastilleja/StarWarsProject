@@ -4,7 +4,7 @@ import { createClient } from "@/app/utils/supabase/client";
 import { User } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
 
-export default async function CloseDiscussionButton({id}:{id:string}) {
+export default function CloseDiscussionButton({id}:{id:string}) {
     const supabase = createClient()
 
     const [user, setUser] = useState<User | null>(null)
