@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { User } from "@supabase/supabase-js";
 import { createClient } from "@/app/utils/supabase/client";
+import CloseDiscussionButton from "@/app/componentes/sections/CloseDiscussionButton";
 
 export default function IdDiscussion() {
     const params = useParams<{id:string}>()
@@ -28,6 +29,7 @@ export default function IdDiscussion() {
     return (
         <main className="min-h-screen h-auto">
             <div className="grid size-full place-items-center">
+                <CloseDiscussionButton id={params.id}/>
                 <Messages id={params.id}/>
                 <section className="flex my-3 w-full h-auto justify-center sm:w-[50%]">
                     {
