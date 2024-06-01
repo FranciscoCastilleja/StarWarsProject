@@ -14,7 +14,7 @@ export default function Discussions() {
         const GetDiscussions = async () => {
             const { data: discussions, error } = await supabase
             .from('Discussions')
-            .select('id, created_by, name, description, event')
+            .select('id, created_by, name, description, event, status')
             
             if (!error) {
                 setDataDiscussions(discussions)
@@ -33,7 +33,8 @@ export default function Discussions() {
                         created_by, 
                         name: name,
                         description: description,
-                        event: event
+                        event: event,
+                        status: status
                     } = discussion
                     return (
                         <Link key={discussion.id} href={`/discussions/${id}`} className="w-full h-auto sm:w-[50%]">
@@ -41,6 +42,9 @@ export default function Discussions() {
                                 <div className="flex w-full h-auto items-center gap-x-5">
                                     <h2 className="my-2 text-white text-3xl font-bold">{discussion.name}</h2>
                                     <p className="my-2 text-white text-base">Created by: {discussion.created_by}</p>
+                                    {
+                                        discussion.status === true ? (<p className="my-2 text-white text-base">OPEN</p>) : (<p className="my-2 text-white text-base">CLOSED</p>)
+                                    }
                                 </div>
                                 <p className="my-1 text-white text-lg">Event: {discussion.event}</p>
                                 <p className="my-1 text-white text-base">{discussion.description}</p>
