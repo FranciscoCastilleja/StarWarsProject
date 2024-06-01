@@ -39,7 +39,7 @@ export default function CloseDiscussionButton({id}:{id:string}) {
     return (
         <section className="flex mt-3 w-full h-auto justify-end">
             {
-                user?.user_metadata.full_name === data.created_by && (<button className="mr-10 mb-3 p-2 text-white text-base bg-black/90 border border-white rounded-xl hover:bg-red-700 hover:text-black hover:border-red-700">Close Discussion</button>)
+                user?.user_metadata.full_name === data.created_by && (<button className="mr-20 mb-3 p-2 text-white text-base bg-black/90 border border-white rounded-xl hover:bg-red-700 hover:border-red-700">Close Discussion</button>)
             }
         </section>
     );
