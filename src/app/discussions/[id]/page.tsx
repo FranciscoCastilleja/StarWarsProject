@@ -14,6 +14,7 @@ export default function IdDiscussion() {
     const supabase = createClient()
 
     const [user, setUser] = useState<User | null>(null)
+    const [data, setData] = useState<boolean>(false)
 
     useEffect(() => {
         const GetUser = async () => {
@@ -26,6 +27,21 @@ export default function IdDiscussion() {
         GetUser()
     }, [])
 
+    useEffect(() => {
+        const getData = async () => {
+            const { data, error } = await supabase
+            .from('Discussions')
+            .select('status')
+            .eq('id', params.id)
+
+            if (!error) {
+                setData(data[0].status)
+            }
+        }
+
+        getData()
+    })
+
     return (
         <main className="min-h-screen h-auto">
             <div className="grid size-full place-items-center">
@@ -33,7 +49,7 @@ export default function IdDiscussion() {
                 <Messages id={params.id}/>
                 <section className="flex my-3 w-full h-auto justify-center sm:w-[50%]">
                     {
-                        user && (
+                        user && data != false && (
                             <form action={SendMessage} className="flex p-2 w-full h-auto bg-[#333]/80 rounded-lg justify-center">
                                 <div className="grid size-full place-items-center">
                                     <label htmlFor="comment" className="my-1 text-white text-base">Comment</label>
