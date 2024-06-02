@@ -22,7 +22,13 @@ export default function RootLayout({
       <head>
         <meta name="keywords" content="Star Wars, Chronology, Star, Wars, Star Wars Chronology, Hackathon 2024, Supabase"/>
         <meta name="author" content="Francisco Castilleja"/>
+        <meta property="og:title" content="Francisco Castilleja"/>
+        <meta property="og:description" content="Star Wars project for Supabase Hackathon 2024"/>
         <meta property="og:image" content="/Media/screenshot1.webp" />
+        <meta property="og:url" content="https://starwars-chronology.vercel.app/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="en_EN"/>
+        <link rel="canonical" href="https://starwars-chronology.vercel.app/"/>
         <link
           rel="icon"
           href="/favicon.svg"
