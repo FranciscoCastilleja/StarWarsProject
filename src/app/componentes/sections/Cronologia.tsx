@@ -324,7 +324,7 @@ export default function Cronologia() {
                     <Card name="Star Wars: The High Republic Adventures 6 (Ongoing Comic Series)" year="228 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic Adventures 7 (Ongoing Comic Series)" year="228 BBY" user={user}/>
                     <Card name="Star Wars: The High Republic Adventures 8 (Ongoing Comic Series)" year="228 BBY" user={user}/>
-                    <Card name="Star Wars: The Acolyte (Serie)" year="132 BBY" user={user}/>
+                    <Card name="Star Wars: The Acolyte (Serie)" year="119 BBY" user={user}/>
                 </div>
             </article>
             <article id="article4" onClick={Article4} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
