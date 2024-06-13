@@ -332,9 +332,12 @@ export default function Cronologia() {
                 <h2 className="text-white text-lg font-bold">Fall of the Jedi</h2>
                 <div id="Content4" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: Tales of the Jedi (Episode 2 & 3) (Serie)" year="44 & 42 BBY" user={user}/>
+                    <Card name="Star Wars Queen's Peril (Young Adult Novel)" year="32 BBY" user={user}/>
                     <Card name="Star Wars: Episode I The Phantom Menace (Movie)" year="32 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Jedi (Episode 4) (Serie)" year="32 BBY" user={user}/>
+                    <Card name="Star Wars Queen's Shadow (Young Adult Novel)" year="28 BBY" user={user}/>
                     <Card name="Star Wars: Episode II Attack of the Clones (Movie)" year="22 BBY" user={user}/>
+                    <Card name="Star Wars Queen's Hope (Young Adult Novel)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 16, Season 2 & Episode 16, Season 1) (Serie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Jedi (Episode 1) (Serie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Movie)" year="22 BBY" user={user}/>
@@ -383,7 +386,10 @@ export default function Cronologia() {
                     <Card name="Star Wars: Darth Vader 10 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 11 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 12 (Comic)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn Ascendancy: Chaos Rising (Novel)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: The Bad Batch (Season 2 & 3) (Serie)" year="19 - 18 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn Ascendancy: Greater Good (Novel)" year="18 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn Ascendancy: Lesser Evil (Novel)" year="18 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 13 (Comic)" year="18 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 14 (Comic)" year="18 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 15 (Comic)" year="18 BBY" user={user}/>
@@ -405,6 +411,7 @@ export default function Cronologia() {
                     <Card name="Star Wars: Darth Vader 24 (Comic)" year="12 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 25 (Comic)" year="12 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Battle Scars (Novel)" year="12 & 11 BBY" user={user}/>
+                    <Card name="Star Wars A New Dawn (Novel)" year="11 BBY" user={user}/>
                     <Card name="Solo: A Star Wars Story (Movie)" year="13 - 10 BBY" user={user}/>
                     <Card name="Star Wars: Obi-Wan Kenobi (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
@@ -412,6 +419,9 @@ export default function Cronologia() {
                     <Card name="Star Wars Rebels (Season 1) (Serie)" year="5 - 4 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 3) (Serie)" year="2 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn (Novel)" year="15 - 2 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn: Alliances (Novel)" year="2 BBY" user={user}/>
+                    <Card name="Star Wars Thrawn: Treason (Novel)" year="1 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
                     <Card name="Vader Immortal: A Star Wars VR Series (Video Game)" year="1 BBY" user={user}/>
                     <Card name="Rogue One: A Star Wars Story (Movie)" year="0 BBY" user={user}/>
