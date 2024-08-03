@@ -332,6 +332,7 @@ export default function Cronologia() {
                 <h2 className="text-white text-lg font-bold">Fall of the Jedi</h2>
                 <div id="Content4" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: Tales of the Jedi (Episode 2 & 3) (Serie)" year="44 & 42 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Jedi (Episode 1) (Serie)" year="35 - 36 BBY" user={user}/>
                     <Card name="Star Wars Queen's Peril (Young Adult Novel)" year="32 BBY" user={user}/>
                     <Card name="Star Wars: Episode I The Phantom Menace (Movie)" year="32 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Jedi (Episode 4) (Serie)" year="32 BBY" user={user}/>
@@ -339,7 +340,6 @@ export default function Cronologia() {
                     <Card name="Star Wars: Episode II Attack of the Clones (Movie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars Queen's Hope (Young Adult Novel)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 16, Season 2 & Episode 16, Season 1) (Serie)" year="22 BBY" user={user}/>
-                    <Card name="Star Wars: Tales of the Jedi (Episode 1) (Serie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Movie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 1, Season 3) (Serie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 3, Season 3) (Serie)" year="22 BBY" user={user}/>
@@ -355,6 +355,7 @@ export default function Cronologia() {
                     <Card name="Star Wars: The Clone Wars (Episode 22, Season 1) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 9 - 11, Season 3) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 15, Season 2) (Serie)" year="21 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 1) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 12 - 22, Season 3) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Season 4) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 2 - 13, Season 5) (Serie)" year="20 BBY" user={user}/>
@@ -420,6 +421,7 @@ export default function Cronologia() {
                     <Card name="Star Wars Rebels (Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 3) (Serie)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn (Novel)" year="15 - 2 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 2) (Serie)" year="9 & 2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Alliances (Novel)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Treason (Novel)" year="1 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
@@ -496,6 +498,8 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/TheNewRepublic.webp" alt="Image of The New Republic" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">The New Republic</h2>
                 <div id="Content7" className="hidden w-full h-auto justify-center">
+                    <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="0 & 9 ABY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 3) (Serie)" year="5 & 9 ABY" user={user}/>
                     <Card name="Star Wars: Skeleton Crew (Serie)" year="9 ABY" user={user}/>
                     <Card name="Star Wars: The Mandalorian (Season 1 & 2) (Serie)" year="9 ABY" user={user}/>
                     <Card name="Star Wars: The Book of Boba Fett (Serie)" year="9 ABY" user={user}/>
@@ -507,6 +511,8 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/RiseOfTheFirstOrder.webp" alt="Image of Rise Of The First Order" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Rise Of The First Order</h2>
                 <div id="Content8" className="hidden w-full h-auto justify-center">
+                    <Card name="Star Wars: Tales of the Empire (Episode 4) (Serie)" year="19 ABY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 5) (Serie)" year="5 & 9 ABY" user={user}/>
                     <Card name="Star Wars: Bloodline (Novel)" year="28 ABY" user={user}/>
                     <Card name="Star Wars: The Rise of Kylo Ren 1 (Comic)" year="28 ABY" user={user}/>
                     <Card name="Star Wars: The Rise of Kylo Ren 2 (Comic)" year="28 ABY" user={user}/>
