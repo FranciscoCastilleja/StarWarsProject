@@ -343,7 +343,8 @@ export default function Cronologia() {
                     <Card name="Star Wars: The Clone Wars (Movie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 1, Season 3) (Serie)" year="22 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 3, Season 3) (Serie)" year="22 BBY" user={user}/>
-                    <Card name="Star Wars: The Clone Wars (Episode 1 - 21, Season 1) (Serie)" year="22 - 21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 15, Season 1) (Serie)" year="22 - 21 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 17 - 21, Season 1) (Serie)" year="22 - 21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 1 - 3, Season 2) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 17 - 19, Season 2) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 4 - 14, Season 2) (Serie)" year="21 BBY" user={user}/>
@@ -362,9 +363,10 @@ export default function Cronologia() {
                     <Card name="Star Wars: The Clone Wars (Episode 1, Season 5) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 14 - 20, Season 5) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Season 6) (Serie)" year="19 BBY" user={user}/>
-                    <Card name="Star Wars: The Clone Wars (Episode 1 - 9, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 5 - 8, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 4, Season 7) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Episode III Revenge of the Sith (Movie)" year="19 BBY" user={user}/>
-                    <Card name="Star Wars: The Clone Wars (Episode 10 & 11, Season 7) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 9 - 11, Season 7) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Jedi (Episode 5) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 12, Season 7) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Jedi (Episode 6) (Serie)" year="19 BBY" user={user}/>
