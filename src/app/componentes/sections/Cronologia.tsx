@@ -356,9 +356,10 @@ export default function Cronologia() {
                     <Card name="Star Wars: The Clone Wars (Episode 22, Season 1) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 9 - 11, Season 3) (Serie)" year="21 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 15, Season 2) (Serie)" year="21 BBY" user={user}/>
-                    <Card name="Star Wars: Tales of the Empire (Episode 1) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 12 - 22, Season 3) (Serie)" year="20 BBY" user={user}/>
-                    <Card name="Star Wars: The Clone Wars (Season 4) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 1 - 19, Season 4) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 1) (Serie)" year="20 BBY" user={user}/>
+                    <Card name="Star Wars: The Clone Wars (Episode 20 - 22, Season 4) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 2 - 13, Season 5) (Serie)" year="20 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 1, Season 5) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: The Clone Wars (Episode 14 - 20, Season 5) (Serie)" year="19 BBY" user={user}/>
