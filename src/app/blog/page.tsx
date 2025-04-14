@@ -2,6 +2,12 @@ export default function Blog() {
     return (
         <main className="grid min-h-screen h-auto place-items-center">
             <article className="my-3 w-[90%] h-fit border-y border-white sm:w-[50%]">
+                <h2 className="my-2 text-white text-xl font-bold">Revenge of the Sith Returns to Theaters – April 24!</h2>
+                <p className="my-2 text-white text-base">Episode III: Revenge of the Sith is returning to theaters on April 24, and I couldn’t be more thrilled.</p>
+                <p className="my-2 text-white text-base">Whether it's your first time watching it or you're reliving the epic moments, I hope you get the chance to experience it too. Let’s all enjoy this iconic chapter of the saga together – May the Force be with you!</p>
+                <p className="my-2 text-white text-center text-base">Attn: Francisco Castilleja (Creator)</p>
+            </article>
+            <article className="my-3 w-[90%] h-fit border-y border-white sm:w-[50%]">
                 <h2 className="my-2 text-white text-xl font-bold">May 4th, 2024</h2>
                 <p className="my-2 text-white text-base">May the Force be with you this May 4th! Let&apos;s celebrate Star Wars Day together, remembering the epic battles, unforgettable characters, and lessons of hope and resistance that this incredible saga has taught us. Happy Star Wars Day to all fans across the galaxy!</p>
                 <p className="my-2 text-white text-center text-base">Attn: Francisco Castilleja (Creator)</p>
