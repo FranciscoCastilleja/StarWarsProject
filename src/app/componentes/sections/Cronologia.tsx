@@ -420,7 +420,7 @@ export default function Cronologia() {
                     <Card name="Solo: A Star Wars Story (Movie)" year="13 - 10 BBY" user={user}/>
                     <Card name="Star Wars: Obi-Wan Kenobi (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
-                    <Card name="Star Wars: Andor (Serie)" year="5 BBY" user={user}/>
+                    <Card name="Star Wars: Andor (Season 1) (Serie)" year="5 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 1) (Serie)" year="5 - 4 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 3) (Serie)" year="2 BBY" user={user}/>
@@ -430,6 +430,7 @@ export default function Cronologia() {
                     <Card name="Star Wars Thrawn: Treason (Novel)" year="1 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
                     <Card name="Vader Immortal: A Star Wars VR Series (Video Game)" year="1 BBY" user={user}/>
+                    <Card name="Star Wars: Andor (Season 2) (Serie)" year="4 - 1 BBY" user={user}/>
                     <Card name="Rogue One: A Star Wars Story (Movie)" year="0 BBY" user={user}/>
                 </div>
             </article>
