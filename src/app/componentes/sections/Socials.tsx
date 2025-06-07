@@ -27,7 +27,7 @@ export default function Socials() {
                         <h3 className="absolute w-44 opacity-0 -bottom-10 text-white text-center font-bold -z-10 transition-opacity duration-500 ease-linear group-hover:opacity-100">La Guardia del Templo</h3>
                     </span>
                     <span className="group grid relative place-items-center rounded-full">
-                        <Link className="rounded-full border-2 border-transparent hover:scale-105 hover:border-[#FF0000]" title="La Sombra del Imperio" href="https://www.youtube.com/@LaSombradelImperio" target="_blank" rel="noopener noreferrer"><Image width={100} height={100} className="rounded-full" src="/Media/SombraImperio.webp" alt="Picture of La Sombra del Imperio"/></Link>
+                        <Link className="rounded-full border-2 border-transparent hover:scale-105 hover:border-[#0000FF]" title="La Sombra del Imperio" href="https://www.youtube.com/@LaSombradelImperio" target="_blank" rel="noopener noreferrer"><Image width={100} height={100} className="rounded-full" src="/Media/SombraImperio.webp" alt="Picture of La Sombra del Imperio"/></Link>
                         <h3 className="absolute w-44 opacity-0 -bottom-10 text-white text-center font-bold -z-10 transition-opacity duration-500 ease-linear group-hover:opacity-100">La Sombra del Imperio</h3>
                     </span>
                     <span className="group grid relative place-items-center rounded-full">
