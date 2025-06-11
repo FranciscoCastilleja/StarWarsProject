@@ -383,6 +383,7 @@ export default function Cronologia() {
                 <h2 className="text-white text-lg font-bold">Reign Of The Empire</h2>
                 <div id="Content5" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: The Bad Batch (Season 1) (Serie)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 4 & 5) (Serie)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 1 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 2 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 3 (Comic)" year="19 BBY" user={user}/>
@@ -452,6 +453,7 @@ export default function Cronologia() {
                 <h2 className="text-white text-lg font-bold">Age Of Rebellion</h2>
                 <div id="Content6" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: Episode IV A New Hope (Movie)" year="0 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="9 BBY & 0 ABY" user={user}/>
                     <Card name="Star Wars: Episode V The Empire Strikes Back (Movie)" year="3 ABY" user={user}/>
                     <Card name="Star Wars: Darth Vader 1 (2020) (Comic)" year="3 ABY" user={user}/>
                     <Card name="Star Wars: Darth Vader 2 (2020) (Comic)" year="3 ABY" user={user}/>
@@ -516,7 +518,6 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/TheNewRepublic.webp" alt="Image of The New Republic" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">The New Republic</h2>
                 <div id="Content7" className="hidden w-full h-auto justify-center">
-                    <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="0 & 9 ABY" user={user}/>
                     <Card name="Star Wars: Tales of the Empire (Episode 3) (Serie)" year="5 & 9 ABY" user={user}/>
                     <Card name="Star Wars: Skeleton Crew (Serie)" year="9 ABY" user={user}/>
                     <Card name="Star Wars: The Mandalorian (Season 1 & 2) (Serie)" year="9 ABY" user={user}/>
@@ -529,8 +530,6 @@ export default function Cronologia() {
                 <Image width={150} height={150} src="/Media/RiseOfTheFirstOrder.webp" alt="Image of Rise Of The First Order" className="hover:scale-105" priority/>
                 <h2 className="text-white text-lg font-bold">Rise Of The First Order</h2>
                 <div id="Content8" className="hidden w-full h-auto justify-center">
-                    <Card name="Star Wars: Tales of the Empire (Episode 4) (Serie)" year="19 ABY" user={user}/>
-                    <Card name="Star Wars: Tales of the Empire (Episode 5) (Serie)" year="5 & 9 ABY" user={user}/>
                     <Card name="Star Wars: Bloodline (Novel)" year="28 ABY" user={user}/>
                     <Card name="Star Wars: The Rise of Kylo Ren 1 (Comic)" year="28 ABY" user={user}/>
                     <Card name="Star Wars: The Rise of Kylo Ren 2 (Comic)" year="28 ABY" user={user}/>
