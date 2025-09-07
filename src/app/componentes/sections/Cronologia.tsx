@@ -397,6 +397,7 @@ export default function Cronologia() {
                     <Card name="Star Wars: Darth Vader 11 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars: Darth Vader 12 (Comic)" year="19 BBY" user={user}/>
                     <Card name="Star Wars Thrawn Ascendancy: Chaos Rising (Novel)" year="19 BBY" user={user}/>
+                    <Card name="Star Wars: Maul Shadow Lord (Serie)" year="19 - 18 BBY" user={user}/>
                     <Card name="Star Wars: The Bad Batch (Season 2 & 3) (Serie)" year="19 - 18 BBY" user={user}/>
                     <Card name="Star Wars: Tales of the Underworld (Episode 1 - 3) (Serie)" year="18 BBY" user={user}/>
                     <Card name="Star Wars Thrawn Ascendancy: Greater Good (Novel)" year="18 BBY" user={user}/>
@@ -424,7 +425,9 @@ export default function Cronologia() {
                     <Card name="Star Wars Jedi: Battle Scars (Novel)" year="12 & 11 BBY" user={user}/>
                     <Card name="Star Wars A New Dawn (Novel)" year="11 BBY" user={user}/>
                     <Card name="Solo: A Star Wars Story (Movie)" year="13 - 10 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 2) (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars: Obi-Wan Kenobi (Serie)" year="9 BBY" user={user}/>
+                    <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
                     <Card name="Star Wars: Andor (Season 1) (Serie)" year="5 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Episode 1 - 7, Season 1) (Serie)" year="5 BBY" user={user}/>
@@ -439,7 +442,6 @@ export default function Cronologia() {
                     <Card name="Star Wars: Andor (Episode 9, Season 2) (Serie)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Episode 18 - 22, Season 3) (Serie)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn (Novel)" year="15 - 2 BBY" user={user}/>
-                    <Card name="Star Wars: Tales of the Empire (Episode 2) (Serie)" year="9 & 2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Alliances (Novel)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Treason (Novel)" year="1 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
@@ -453,7 +455,6 @@ export default function Cronologia() {
                 <h2 className="text-white text-lg font-bold">Age Of Rebellion</h2>
                 <div id="Content6" className="hidden w-full h-auto justify-center">
                     <Card name="Star Wars: Episode IV A New Hope (Movie)" year="0 BBY" user={user}/>
-                    <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="9 BBY & 0 ABY" user={user}/>
                     <Card name="Star Wars: Episode V The Empire Strikes Back (Movie)" year="3 ABY" user={user}/>
                     <Card name="Star Wars: Darth Vader 1 (2020) (Comic)" year="3 ABY" user={user}/>
                     <Card name="Star Wars: Darth Vader 2 (2020) (Comic)" year="3 ABY" user={user}/>
