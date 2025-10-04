@@ -430,11 +430,12 @@ export default function Cronologia() {
                     <Card name="Star Wars: Tales of the Empire (Episode 6) (Serie)" year="9 BBY" user={user}/>
                     <Card name="Star Wars Jedi: Survivor (Video Game)" year="9 BBY" user={user}/>
                     <Card name="Star Wars: Andor (Season 1) (Serie)" year="5 BBY" user={user}/>
-                    <Card name="Star Wars Rebels (Episode 1 - 7, Season 1) (Serie)" year="5 BBY" user={user}/>
+                    <Card name="Star Wars Rebels Shorts (Episode 1 - 4) (Serie)" year="5 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 1 & Episode 1 - 9, Season 2) (Serie)" year="5 & 4 BBY" user={user}/>
                     <Card name="Star Wars: Andor (Episode 1 - 3, Season 2) (Serie)" year="4 BBY" user={user}/>
-                    <Card name="Star Wars Rebels (Episode 8 - 15, Season 1) (Serie)" year="4 BBY" user={user}/>
-                    <Card name="Star Wars Rebels (Episode 1 - 10, Season 2) (Serie)" year="4 - 3 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Episode 10, Season 2) (Serie)" year="3 BBY" user={user}/>
                     <Card name="Star Wars: Andor (Episode 4 - 6, Season 2) (Serie)" year="3 BBY" user={user}/>
+                    <Card name="Star Wars Leia, Princess of Alderaan (Novel)" year="3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Episode 11 - 22, Season 2) (Serie)" year="3 BBY" user={user}/>
                     <Card name="Star Wars Rebels (Episode 1 - 16, Season 3) (Serie)" year="2 BBY" user={user}/>
                     <Card name="Star Wars: Andor (Episode 7 - 8, Season 2) (Serie)" year="2 BBY" user={user}/>
@@ -444,9 +445,9 @@ export default function Cronologia() {
                     <Card name="Star Wars Thrawn (Novel)" year="15 - 2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Alliances (Novel)" year="2 BBY" user={user}/>
                     <Card name="Star Wars Thrawn: Treason (Novel)" year="1 BBY" user={user}/>
-                    <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
                     <Card name="Vader Immortal: A Star Wars VR Series (Video Game)" year="1 BBY" user={user}/>
-                    <Card name="Star Wars: Andor (Episode 10 - 12,Season 2) (Serie)" year="1 BBY" user={user}/>
+                    <Card name="Star Wars Rebels (Season 4) (Serie)" year="1 BBY" user={user}/>
+                    <Card name="Star Wars: Andor (Episode 10 - 12, Season 2) (Serie)" year="1 BBY" user={user}/>
                     <Card name="Rogue One: A Star Wars Story (Movie)" year="0 BBY" user={user}/>
                 </div>
             </article>
