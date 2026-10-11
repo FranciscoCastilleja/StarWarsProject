@@ -526,6 +526,7 @@ export default function Cronologia() {
                     <Card name="Star Wars: The Book of Boba Fett (Serie)" year="9 ABY" user={user}/>
                     <Card name="Star Wars: Ahsoka (Serie)" year="9 ABY" user={user}/>
                     <Card name="Star Wars: The Mandalorian (Season 3) (Serie)" year="9 ABY" user={user}/>
+                    <Card name="Star Wars: The Mandalorian and Grogu (Movie)" year="9 ABY" user={user}/>
                 </div>
             </article>
             <article id="article8" onClick={Article8} className="grid mb-5 w-full h-48 place-items-center border-2 border-white">
